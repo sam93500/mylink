@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*price</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+
+<category><pattern>five days training from 2500 up to 3500 euros</pattern><template><srai>*PRICE</srai></template></category>
+<category><pattern>one day training: from 840 up to 1000 euros</pattern><template><srai>*PRICE</srai></template></category>
+
+<category><pattern>collectiv training: 1000 euros</pattern><template><srai>one day training: from 840 up to 1000 euros</srai></template></category>
+<category><pattern>individual coaching: 540 euros</pattern><template><srai>one day training: from 840 up to 1000 euros</srai></template></category>
+
+
+</aiml>
